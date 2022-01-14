@@ -35,11 +35,11 @@ class _CalculatorState extends State<Calculator> {
   final Color shadowLight = Color(0xffADACAC);
   final Color rightDarkTheme = Color(0xff3F4C4E);
   final Color rigthLightTheme = Color(0xffF5F5F5);
-  Color? rightTheme;
-  Color? themeBtn;
-  Color? themeNum;
-  Color? theme;
-  Color? blurTheme;
+  Color? rightTheme = Color(0xffF5F5F5);
+  Color? themeBtn = Color(0xff747474);
+  Color? themeNum = Color(0xff5B5B5B);
+  Color? theme = Color(0xffFFFFFF);
+  Color? blurTheme = Color(0xffADACAC);
 
   Color? selectTheme({bool? value}) {
     setState(() {
